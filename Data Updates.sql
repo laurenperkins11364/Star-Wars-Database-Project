@@ -1,0 +1,6 @@
+INSERT INTO GENERALS VALUES ('Obi-Wan', 'Kenobi', '956395638', '1973-02-23', '639821574', '4', '1978-06-14');
+INSERT INTO STORMTROOPERS VALUES ('Kyle', 'Katarn', '37497493', 'Coruscant', '1995-02-15', 'Captain', '183037535');
+INSERT INTO Generals VALUES ('Leia', 'Organa', '736598145', '1999-10-08', '740219856', '6', '1955-02-27');
+UPDATE ADMIRALS
+SET FirstName = 'Varawn', LastName = 'Thrawn'
+WHERE IdNumber = '987123456';
